@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="actionCell" rowHeight="94" id="KGk-i7-Jjw" customClass="ActionTableViewCell" customModule="Project" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="517" height="94"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="517" height="94"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WfO-y9-sfn">
+                        <rect key="frame" x="16" y="16" width="60" height="60"/>
+                        <color key="backgroundColor" red="0.28627450980000002" green="0.34509803919999998" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="ToT-zz-sjk"/>
+                            <constraint firstAttribute="height" constant="60" id="sqC-9L-8UE"/>
+                        </constraints>
+                        <color key="tintColor" red="0.97254901959999995" green="0.96862745100000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <state key="normal" image="house.fill" catalog="system"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Family" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4az-pp-Nge">
+                        <rect key="frame" x="92" y="16" width="62.5" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="EoL-HH-bqs"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="20"/>
+                        <color key="textColor" red="0.28627450980000002" green="0.34509803919999998" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Private English Lesson" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fR8-dL-xAN">
+                        <rect key="frame" x="92" y="48" width="177.5" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="8AV-SR-xcP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="16"/>
+                        <color key="textColor" red="0.28627450980000002" green="0.34509803919999998" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glg-dF-qPs">
+                        <rect key="frame" x="484" y="42" width="17" height="26"/>
+                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="26"/>
+                        <color key="textColor" red="0.93725490199999995" green="0.13725490200000001" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monday,2 february,2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eRj-et-osu">
+                        <rect key="frame" x="353.5" y="16" width="147.5" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="7zf-qL-oi8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="12"/>
+                        <color key="textColor" red="0.28627450980000002" green="0.34509803919999998" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="fR8-dL-xAN" secondAttribute="bottom" constant="16" id="9Pm-Bs-ERR"/>
+                    <constraint firstAttribute="bottom" secondItem="fR8-dL-xAN" secondAttribute="bottom" constant="16" id="ES7-gc-Nw7"/>
+                    <constraint firstItem="eRj-et-osu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="Kmj-nE-lmo"/>
+                    <constraint firstItem="4az-pp-Nge" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="QFr-I9-2ox"/>
+                    <constraint firstItem="WfO-y9-sfn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="SJi-9c-0DG"/>
+                    <constraint firstItem="fR8-dL-xAN" firstAttribute="leading" secondItem="WfO-y9-sfn" secondAttribute="trailing" constant="16" id="Wrj-70-cv8"/>
+                    <constraint firstItem="fR8-dL-xAN" firstAttribute="top" secondItem="4az-pp-Nge" secondAttribute="bottom" constant="8" id="gyN-Md-l5F"/>
+                    <constraint firstAttribute="trailing" secondItem="glg-dF-qPs" secondAttribute="trailing" constant="16" id="hnZ-tV-2Of"/>
+                    <constraint firstItem="4az-pp-Nge" firstAttribute="leading" secondItem="WfO-y9-sfn" secondAttribute="trailing" constant="16" id="if0-UI-veK"/>
+                    <constraint firstItem="WfO-y9-sfn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="nKA-v1-vXx"/>
+                    <constraint firstAttribute="trailing" secondItem="eRj-et-osu" secondAttribute="trailing" constant="16" id="ovR-Ds-3WI"/>
+                    <constraint firstAttribute="bottom" secondItem="glg-dF-qPs" secondAttribute="bottom" constant="16" id="uSI-6z-Khy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="categoryLabel" destination="4az-pp-Nge" id="95M-yz-H2g"/>
+                <outlet property="dateLabel" destination="eRj-et-osu" id="PwR-Pb-isn"/>
+                <outlet property="detailLabel" destination="fR8-dL-xAN" id="ADr-7f-uTw"/>
+                <outlet property="iconBtn" destination="WfO-y9-sfn" id="Lww-iy-Qfa"/>
+                <outlet property="numberLabel" destination="glg-dF-qPs" id="gj1-Dw-VM4"/>
+            </connections>
+            <point key="canvasLocation" x="-5.0724637681159424" y="113.83928571428571"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="house.fill" catalog="system" width="64" height="52"/>
+    </resources>
+</document>

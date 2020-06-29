@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Category Pop Up View Controller-->
+        <scene sceneID="0wA-fQ-jAE">
+            <objects>
+                <viewController storyboardIdentifier="categorySB" id="L99-SV-da9" customClass="CategoryPopUpViewController" customModule="Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OHX-uG-MQN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IEJ-f5-YQd">
+                                <rect key="frame" x="27" y="438" width="360" height="360"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick Category" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9bk-O0-6MT">
+                                        <rect key="frame" x="0.0" y="0.0" width="360" height="48"/>
+                                        <color key="backgroundColor" red="0.57647058819999997" green="0.50588235290000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="JPt-dR-Qz0"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="32"/>
+                                        <color key="textColor" red="0.98905344269999995" green="1" blue="0.9885007012" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Eq-g5-Yn5">
+                                        <rect key="frame" x="64" y="64" width="232" height="180"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="180" id="EBw-gr-L9a"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="dataSource" destination="L99-SV-da9" id="Rog-nx-6rR"/>
+                                            <outlet property="delegate" destination="L99-SV-da9" id="gmw-dH-7Gl"/>
+                                        </connections>
+                                    </pickerView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JgC-xF-vGL">
+                                        <rect key="frame" x="64" y="276" width="232" height="52"/>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="24"/>
+                                        <state key="normal" title="Confirm">
+                                            <color key="titleColor" red="0.98905344269999995" green="1" blue="0.9885007012" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="confirmBtn:" destination="L99-SV-da9" eventType="touchUpInside" id="ps3-Yu-bls"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aef-4j-7pK">
+                                        <rect key="frame" x="0.0" y="48" width="360" height="16"/>
+                                        <color key="backgroundColor" red="0.72156862749999995" green="0.72156862749999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="16" id="dN5-3l-SzY"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="JgC-xF-vGL" firstAttribute="top" secondItem="1Eq-g5-Yn5" secondAttribute="bottom" constant="32" id="5Wx-QU-llq"/>
+                                    <constraint firstAttribute="height" constant="360" id="B9s-Zb-FJx"/>
+                                    <constraint firstAttribute="width" constant="360" id="Hiv-EJ-wiu"/>
+                                    <constraint firstItem="JgC-xF-vGL" firstAttribute="leading" secondItem="IEJ-f5-YQd" secondAttribute="leading" constant="64" id="IzY-lY-GLz"/>
+                                    <constraint firstAttribute="trailing" secondItem="JgC-xF-vGL" secondAttribute="trailing" constant="64" id="MX0-hv-3Me"/>
+                                    <constraint firstItem="1Eq-g5-Yn5" firstAttribute="top" secondItem="aef-4j-7pK" secondAttribute="bottom" id="Ss5-F0-r6r"/>
+                                    <constraint firstItem="aef-4j-7pK" firstAttribute="top" secondItem="9bk-O0-6MT" secondAttribute="bottom" id="Usa-Ay-H6w"/>
+                                    <constraint firstItem="1Eq-g5-Yn5" firstAttribute="leading" secondItem="IEJ-f5-YQd" secondAttribute="leading" constant="64" id="Z6k-8l-aQd"/>
+                                    <constraint firstItem="9bk-O0-6MT" firstAttribute="leading" secondItem="IEJ-f5-YQd" secondAttribute="leading" id="agB-bW-fwp"/>
+                                    <constraint firstAttribute="trailing" secondItem="1Eq-g5-Yn5" secondAttribute="trailing" constant="64" id="doh-ns-U6O"/>
+                                    <constraint firstItem="9bk-O0-6MT" firstAttribute="top" secondItem="IEJ-f5-YQd" secondAttribute="top" id="dvv-PZ-fij"/>
+                                    <constraint firstAttribute="bottom" secondItem="JgC-xF-vGL" secondAttribute="bottom" constant="32" id="gcl-KB-GxI"/>
+                                    <constraint firstItem="aef-4j-7pK" firstAttribute="leading" secondItem="IEJ-f5-YQd" secondAttribute="leading" id="rEB-h0-akw"/>
+                                    <constraint firstAttribute="trailing" secondItem="aef-4j-7pK" secondAttribute="trailing" id="vEM-Og-2Vc"/>
+                                    <constraint firstAttribute="trailing" secondItem="9bk-O0-6MT" secondAttribute="trailing" id="ygv-aO-pvu"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="IEJ-f5-YQd" firstAttribute="centerX" secondItem="OHX-uG-MQN" secondAttribute="centerX" id="fOI-bn-woE"/>
+                            <constraint firstItem="yfh-x5-alT" firstAttribute="bottom" secondItem="IEJ-f5-YQd" secondAttribute="bottom" constant="64" id="pGI-sO-AU6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yfh-x5-alT"/>
+                    </view>
+                    <connections>
+                        <outlet property="categoryPicker" destination="1Eq-g5-Yn5" id="mRy-zl-4Sh"/>
+                        <outlet property="confirmUiBtn" destination="JgC-xF-vGL" id="Zrk-Rs-kCf"/>
+                        <outlet property="myView" destination="IEJ-f5-YQd" id="QKb-iI-fmP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jWJ-93-6Lq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="21.739130434782609" y="112.5"/>
+        </scene>
+    </scenes>
+</document>
