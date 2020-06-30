@@ -319,7 +319,18 @@ class ExpensesViewController: UIViewController {
         
         switch device {
             
-        case "iPhone 8","iPhone 7","iPhone 6s":
+        case "iPhone 11 Pro Max","iPhone 11 Pro","iPhone 11","iPhone X","iPhone XR","iPhone XS","iPhone XS Max","iPhone 8 Plus":
+            
+            totalExpences.font = UIFont(name: "Hiragino Maru Gothic Pro W4", size: 48)
+            
+            for icon in iconsArr {
+                
+                icon?.layer.masksToBounds = true
+                icon?.layer.cornerRadius = (icon?.frame.width)! / 2
+                
+            }
+            
+        default:
             
             for l in labels{
                 
@@ -334,17 +345,6 @@ class ExpensesViewController: UIViewController {
             }
             
             totalExpences.font = UIFont(name: "Hiragino Maru Gothic Pro W4", size: 32)
-            
-        default:
-            
-            totalExpences.font = UIFont(name: "Hiragino Maru Gothic Pro W4", size: 48)
-            
-            for icon in iconsArr {
-                
-                 icon?.layer.masksToBounds = true
-                 icon?.layer.cornerRadius = (icon?.frame.width)! / 2
-                
-            }
         }
     }
 

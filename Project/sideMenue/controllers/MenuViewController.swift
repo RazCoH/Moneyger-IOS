@@ -2,7 +2,7 @@
 //  MenuViewController.swift
 //  Project
 //
-//  Created by raz cohen on 30/06/2020.
+//  Created by raz cohen on 30/04/2020.
 //  Copyright © 2020 raz cohen. All rights reserved.
 //
 
@@ -48,7 +48,7 @@ class MenuViewController: UITableViewController,CurrencyDelegate{
         tableViewData = [
             cellData(opened: false, title: "Reset Data"),
             cellData(opened: false, title: "Screen Mode", sectionData: ["Dark","Bright"]),
-            cellData(opened: false, title: "My Currency"),
+            cellData(opened: false, title: "Currency"),
             cellData(opened: false, title: "Contact Us"),
             cellData(opened: false, title: "Log Out")
             
@@ -178,7 +178,7 @@ class MenuViewController: UITableViewController,CurrencyDelegate{
                 
                 present(alert, animated: true)
             
-            case "My Currency":
+            case "Currency":
                 
                 tableViewData[indexPath.section].opened = false
                 

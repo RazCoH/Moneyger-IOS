@@ -23,7 +23,6 @@
 		94894CCE246B437A00E53B52 /* StorageImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94894CCD246B437A00E53B52 /* StorageImageViewController.swift */; };
 		948A9A0D245F33FE000FC2CB /* CoreDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948A9A0C245F33FE000FC2CB /* CoreDatabase.swift */; };
 		948A9A8D245F67B7001F6524 /* Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 948A9A06245F3188000FC2CB /* Project.xcdatamodeld */; };
-		94926736245B4FB80037F95F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94926735245B4FB80037F95F /* MenuViewController.swift */; };
 		94930E9A246AD8C2003A61DD /* FirebaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94930E99246AD8C2003A61DD /* FirebaseModel.swift */; };
 		94958220247FB68100FB275E /* Rauter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9495821F247FB68100FB275E /* Rauter.swift */; };
 		94958222247FB6FE00FB275E /* LogIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94958221247FB6FE00FB275E /* LogIn.storyboard */; };
@@ -59,6 +58,7 @@
 		94BE6AB024609E1C00C5B7EF /* CategoryPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BE6AAF24609E1C00C5B7EF /* CategoryPopUpViewController.swift */; };
 		94BE6AB22460A29800C5B7EF /* CategoryPopUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94BE6AB12460A29800C5B7EF /* CategoryPopUp.storyboard */; };
 		94C12319247967730090F23D /* UIExtensionsAndProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C12318247967730090F23D /* UIExtensionsAndProtocols.swift */; };
+		94C31AF224AB20B900A070EE /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C31AF124AB20B900A070EE /* MenuViewController.swift */; };
 		94C62B9524562477001C8D83 /* PieChartDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C62B9424562477001C8D83 /* PieChartDataSource.swift */; };
 		94C81B8B247E60F7004DB539 /* Action+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C81B89247E60F7004DB539 /* Action+CoreDataClass.swift */; };
 		94C81B8C247E60F7004DB539 /* Action+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C81B8A247E60F7004DB539 /* Action+CoreDataProperties.swift */; };
@@ -94,7 +94,6 @@
 		94894CCD246B437A00E53B52 /* StorageImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageImageViewController.swift; sourceTree = "<group>"; };
 		948A9A07245F3188000FC2CB /* Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Project.xcdatamodel; sourceTree = "<group>"; };
 		948A9A0C245F33FE000FC2CB /* CoreDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDatabase.swift; sourceTree = "<group>"; };
-		94926735245B4FB80037F95F /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		94930E99246AD8C2003A61DD /* FirebaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseModel.swift; sourceTree = "<group>"; };
 		9495821F247FB68100FB275E /* Rauter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rauter.swift; sourceTree = "<group>"; };
 		94958221247FB6FE00FB275E /* LogIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LogIn.storyboard; sourceTree = "<group>"; };
@@ -130,6 +129,7 @@
 		94BE6AAF24609E1C00C5B7EF /* CategoryPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPopUpViewController.swift; sourceTree = "<group>"; };
 		94BE6AB12460A29800C5B7EF /* CategoryPopUp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CategoryPopUp.storyboard; sourceTree = "<group>"; };
 		94C12318247967730090F23D /* UIExtensionsAndProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensionsAndProtocols.swift; sourceTree = "<group>"; };
+		94C31AF124AB20B900A070EE /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		94C62B9424562477001C8D83 /* PieChartDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartDataSource.swift; sourceTree = "<group>"; };
 		94C81B89247E60F7004DB539 /* Action+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Action+CoreDataClass.swift"; sourceTree = "<group>"; };
 		94C81B8A247E60F7004DB539 /* Action+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Action+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -221,7 +221,7 @@
 		94926730245B44740037F95F /* sideMenue */ = {
 			isa = PBXGroup;
 			children = (
-				94926735245B4FB80037F95F /* MenuViewController.swift */,
+				94C31AF124AB20B900A070EE /* MenuViewController.swift */,
 			);
 			path = sideMenue;
 			sourceTree = "<group>";
@@ -575,8 +575,8 @@
 			children = (
 				94EBF8A32416EBBE00D395A7 /* AppDelegate.swift */,
 				94EBF8A52416EBBE00D395A7 /* SceneDelegate.swift */,
-				94958223247FD38D00FB275E /* storyboards */,
 				948A9A09245F31AA000FC2CB /* models */,
+				94958223247FD38D00FB275E /* storyboards */,
 				949FEFFE24845E1E001E46C9 /* controllers */,
 				94926730245B44740037F95F /* sideMenue */,
 				949D04AE245CB876000B285A /* Actions */,
@@ -790,9 +790,9 @@
 				943033D2242A879B0058AC2C /* HomeViewController.swift in Sources */,
 				94BE6AB024609E1C00C5B7EF /* CategoryPopUpViewController.swift in Sources */,
 				94AC5584242D59B3006ACA72 /* Dates.swift in Sources */,
+				94C31AF224AB20B900A070EE /* MenuViewController.swift in Sources */,
 				941C50102459704C009BC3CF /* Totals.swift in Sources */,
 				94A2C4FD2451F20600A44A0C /* ExpensesBarChartViewController.swift in Sources */,
-				94926736245B4FB80037F95F /* MenuViewController.swift in Sources */,
 				94958220247FB68100FB275E /* Rauter.swift in Sources */,
 				94C81B8C247E60F7004DB539 /* Action+CoreDataProperties.swift in Sources */,
 			);

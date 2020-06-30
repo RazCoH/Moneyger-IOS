@@ -37,8 +37,17 @@ class ProfitViewController: UIViewController {
            let device =  UIDevice().name
             
             switch device {
+             
+            case "iPhone 11 Pro Max","iPhone 11 Pro","iPhone 11","iPhone 8 Plus":
                 
-            case "iPhone 8","iPhone 7","iPhone 6s":
+                for icon in iconsArr {
+                    
+                    icon?.layer.masksToBounds = true
+                    icon?.layer.cornerRadius = (icon?.frame.width)! / 2
+                    
+                }
+                
+            default:
                 
                 for l in labels{
                     
@@ -51,17 +60,8 @@ class ProfitViewController: UIViewController {
                     icon?.layer.cornerRadius = 20
                     
                 }
-            
-            default:
-            
-                for icon in iconsArr {
-                    
-                     icon?.layer.masksToBounds = true
-                     icon?.layer.cornerRadius = (icon?.frame.width)! / 2
-                    
-                }
-            }
-        }    
+        }
+    }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
@@ -152,7 +152,7 @@ class ProfitViewController: UIViewController {
     func switchDateArrow(minus:Bool){
         
         switch index {
-            
+        
         case 0:
             if minus{
                 date = Calendar.current.date(byAdding: .day, value: -1, to: date)!
@@ -166,7 +166,7 @@ class ProfitViewController: UIViewController {
             dateLabel.text = stringDate
 
         case 1:
-            
+            print("month")
             if minus{
                 date = Calendar.current.date(byAdding: .weekdayOrdinal, value: -1, to: date)!
             }else{

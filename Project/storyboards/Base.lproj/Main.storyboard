@@ -524,13 +524,13 @@
                                 </connections>
                             </segmentedControl>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="SGN-wy-3gg">
-                                <rect key="frame" x="16" y="130" width="382" height="326.5"/>
+                                <rect key="frame" x="16" y="130" width="382" height="340"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="48" translatesAutoresizingMaskIntoConstraints="NO" id="UNf-VS-9GF">
-                                        <rect key="frame" x="0.0" y="0.0" width="382" height="95.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="100"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="nRr-e6-pdL">
-                                                <rect key="frame" x="0.0" y="0.0" width="59.5" height="95.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="59.5" height="100"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SGB-za-2F8">
                                                         <rect key="frame" x="0.0" y="0.0" width="59.5" height="59.5"/>
@@ -554,7 +554,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FI6-ct-fy2">
-                                                        <rect key="frame" x="0.0" y="83.5" width="59.5" height="12"/>
+                                                        <rect key="frame" x="0.0" y="83.5" width="59.5" height="16.5"/>
                                                         <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="12"/>
                                                         <color key="textColor" red="0.28627450980000002" green="0.34509803919999998" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -562,7 +562,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="DuK-ff-Efa">
-                                                <rect key="frame" x="107.5" y="0.0" width="59.5" height="95.5"/>
+                                                <rect key="frame" x="107.5" y="0.0" width="59.5" height="100"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9GL-J4-4VX">
                                                         <rect key="frame" x="0.0" y="0.0" width="59.5" height="59.5"/>
@@ -586,7 +586,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4E-Yk-DZf">
-                                                        <rect key="frame" x="0.0" y="83.5" width="59.5" height="12"/>
+                                                        <rect key="frame" x="0.0" y="83.5" width="59.5" height="16.5"/>
                                                         <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="12"/>
                                                         <color key="textColor" red="0.28627450980000002" green="0.34509803919999998" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -594,7 +594,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="c6E-AL-MCQ">
-                                                <rect key="frame" x="215" y="0.0" width="59.5" height="95.5"/>
+                                                <rect key="frame" x="215" y="0.0" width="59.5" height="100"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KPO-MU-Hhd">
                                                         <rect key="frame" x="0.0" y="0.0" width="59.5" height="59.5"/>
@@ -618,7 +618,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k2I-uv-gLd">
-                                                        <rect key="frame" x="0.0" y="83.5" width="59.5" height="12"/>
+                                                        <rect key="frame" x="0.0" y="83.5" width="59.5" height="16.5"/>
                                                         <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="12"/>
                                                         <color key="textColor" red="0.28627450980000002" green="0.34509803919999998" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -626,7 +626,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="lsL-6f-icF">
-                                                <rect key="frame" x="322.5" y="0.0" width="59.5" height="95.5"/>
+                                                <rect key="frame" x="322.5" y="0.0" width="59.5" height="100"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KzI-Pl-hds">
                                                         <rect key="frame" x="0.0" y="0.0" width="59.5" height="59.5"/>
@@ -650,7 +650,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="om6-2b-u8b">
-                                                        <rect key="frame" x="0.0" y="83.5" width="59.5" height="12"/>
+                                                        <rect key="frame" x="0.0" y="83.5" width="59.5" height="16.5"/>
                                                         <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="12"/>
                                                         <color key="textColor" red="0.28627450980000002" green="0.34509803919999998" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -660,13 +660,13 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="48" translatesAutoresizingMaskIntoConstraints="NO" id="dW5-9w-2J8">
-                                        <rect key="frame" x="0.0" y="115.5" width="382" height="95.5"/>
+                                        <rect key="frame" x="0.0" y="120" width="382" height="100"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="14I-Ej-zqo">
-                                                <rect key="frame" x="0.0" y="0.0" width="59.5" height="95.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="59.5" height="100"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jsg-Ob-tBD">
-                                                        <rect key="frame" x="0.0" y="0.0" width="59.5" height="59.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="59.5" height="64"/>
                                                         <color key="backgroundColor" red="0.94901960780000005" green="0.37254901959999998" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" image="envelope.fill" catalog="system"/>
@@ -675,7 +675,7 @@
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bills" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xoG-Mn-Y4J">
-                                                        <rect key="frame" x="0.0" y="63.5" width="59.5" height="16"/>
+                                                        <rect key="frame" x="0.0" y="68" width="59.5" height="16"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="16" id="BFe-Ts-6Ne"/>
                                                         </constraints>
@@ -684,7 +684,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="msQ-Xz-4h6">
-                                                        <rect key="frame" x="0.0" y="83.5" width="59.5" height="12"/>
+                                                        <rect key="frame" x="0.0" y="88" width="59.5" height="12"/>
                                                         <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="12"/>
                                                         <color key="textColor" red="0.28627450980000002" green="0.34509803919999998" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -692,10 +692,10 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="HqU-K5-M8D">
-                                                <rect key="frame" x="107.5" y="0.0" width="59.5" height="95.5"/>
+                                                <rect key="frame" x="107.5" y="0.0" width="59.5" height="100"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CX7-ug-33T">
-                                                        <rect key="frame" x="0.0" y="0.0" width="59.5" height="59.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="59.5" height="64"/>
                                                         <color key="backgroundColor" red="0.94901960780000005" green="0.37254901959999998" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" image="house.fill" catalog="system"/>
@@ -704,7 +704,7 @@
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Family" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pmh-P3-QSz">
-                                                        <rect key="frame" x="0.0" y="63.5" width="59.5" height="16"/>
+                                                        <rect key="frame" x="0.0" y="68" width="59.5" height="16"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="16" id="yXd-Us-5ih"/>
                                                         </constraints>
@@ -713,7 +713,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sB2-fG-b8z">
-                                                        <rect key="frame" x="0.0" y="83.5" width="59.5" height="12"/>
+                                                        <rect key="frame" x="0.0" y="88" width="59.5" height="12"/>
                                                         <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="12"/>
                                                         <color key="textColor" red="0.28627450980000002" green="0.34509803919999998" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -721,10 +721,10 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="PuV-rE-XIy">
-                                                <rect key="frame" x="215" y="0.0" width="59.5" height="95.5"/>
+                                                <rect key="frame" x="215" y="0.0" width="59.5" height="100"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FAv-FQ-5lE">
-                                                        <rect key="frame" x="0.0" y="0.0" width="59.5" height="59.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="59.5" height="64"/>
                                                         <color key="backgroundColor" red="0.94901960780000005" green="0.37254901959999998" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" image="healthIcon"/>
@@ -733,7 +733,7 @@
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Health" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D9p-X1-8TH">
-                                                        <rect key="frame" x="0.0" y="63.5" width="59.5" height="16"/>
+                                                        <rect key="frame" x="0.0" y="68" width="59.5" height="16"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="16" id="q7Y-fn-eTd"/>
                                                         </constraints>
@@ -742,7 +742,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EAi-Z3-G6N">
-                                                        <rect key="frame" x="0.0" y="83.5" width="59.5" height="12"/>
+                                                        <rect key="frame" x="0.0" y="88" width="59.5" height="12"/>
                                                         <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="12"/>
                                                         <color key="textColor" red="0.28627450980000002" green="0.34509803919999998" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -750,10 +750,10 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="LbG-qH-hYp">
-                                                <rect key="frame" x="322.5" y="0.0" width="59.5" height="95.5"/>
+                                                <rect key="frame" x="322.5" y="0.0" width="59.5" height="100"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAo-da-exX">
-                                                        <rect key="frame" x="0.0" y="0.0" width="59.5" height="59.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="59.5" height="64"/>
                                                         <color key="backgroundColor" red="0.94901960780000005" green="0.37254901959999998" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" image="film" catalog="system"/>
@@ -762,7 +762,7 @@
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Leisure" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aoG-Je-ylk">
-                                                        <rect key="frame" x="0.0" y="63.5" width="59.5" height="16"/>
+                                                        <rect key="frame" x="0.0" y="68" width="59.5" height="16"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="16" id="6Pr-3y-9Y2"/>
                                                         </constraints>
@@ -771,7 +771,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eiM-a3-bxh">
-                                                        <rect key="frame" x="0.0" y="83.5" width="59.5" height="12"/>
+                                                        <rect key="frame" x="0.0" y="88" width="59.5" height="12"/>
                                                         <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="12"/>
                                                         <color key="textColor" red="0.28627450980000002" green="0.34509803919999998" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -781,13 +781,13 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="48" translatesAutoresizingMaskIntoConstraints="NO" id="zjy-La-L6H">
-                                        <rect key="frame" x="0.0" y="231" width="382" height="95.5"/>
+                                        <rect key="frame" x="0.0" y="240" width="382" height="100"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Bcs-mt-Phe">
-                                                <rect key="frame" x="0.0" y="0.0" width="59.5" height="95.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="59.5" height="100"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mWN-R2-44J">
-                                                        <rect key="frame" x="0.0" y="0.0" width="59.5" height="59.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="59.5" height="64"/>
                                                         <color key="backgroundColor" red="0.94901960780000005" green="0.37254901959999998" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" image="car.fill" catalog="system"/>
@@ -796,7 +796,7 @@
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transport" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvV-uF-coo">
-                                                        <rect key="frame" x="0.0" y="63.5" width="59.5" height="16"/>
+                                                        <rect key="frame" x="0.0" y="68" width="59.5" height="16"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="16" id="TBE-wd-O6w"/>
                                                         </constraints>
@@ -805,7 +805,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qjc-0g-Qky">
-                                                        <rect key="frame" x="0.0" y="83.5" width="59.5" height="12"/>
+                                                        <rect key="frame" x="0.0" y="88" width="59.5" height="12"/>
                                                         <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="12"/>
                                                         <color key="textColor" red="0.28627450980000002" green="0.34509803919999998" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -813,10 +813,10 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="IbV-hX-zJQ">
-                                                <rect key="frame" x="107.5" y="0.0" width="59.5" height="95.5"/>
+                                                <rect key="frame" x="107.5" y="0.0" width="59.5" height="100"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="avx-0t-54v">
-                                                        <rect key="frame" x="0.0" y="0.0" width="59.5" height="59.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="59.5" height="64"/>
                                                         <color key="backgroundColor" red="0.94901960780000005" green="0.37254901959999998" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" image="airplane" catalog="system"/>
@@ -825,7 +825,7 @@
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Travel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GgL-N9-pIy">
-                                                        <rect key="frame" x="0.0" y="63.5" width="59.5" height="16"/>
+                                                        <rect key="frame" x="0.0" y="68" width="59.5" height="16"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="16" id="Mdc-60-hMb"/>
                                                         </constraints>
@@ -834,7 +834,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lgi-Gf-LKq">
-                                                        <rect key="frame" x="0.0" y="83.5" width="59.5" height="12"/>
+                                                        <rect key="frame" x="0.0" y="88" width="59.5" height="12"/>
                                                         <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="12"/>
                                                         <color key="textColor" red="0.28627450980000002" green="0.34509803919999998" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -842,10 +842,10 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="aku-UI-O34">
-                                                <rect key="frame" x="215" y="0.0" width="59.5" height="95.5"/>
+                                                <rect key="frame" x="215" y="0.0" width="59.5" height="100"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xVA-3O-9Rg">
-                                                        <rect key="frame" x="0.0" y="0.0" width="59.5" height="59.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="59.5" height="64"/>
                                                         <color key="backgroundColor" red="0.94901960780000005" green="0.37254901959999998" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" image="sportIcon"/>
@@ -854,7 +854,7 @@
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sport" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6oi-gC-DX0">
-                                                        <rect key="frame" x="0.0" y="63.5" width="59.5" height="16"/>
+                                                        <rect key="frame" x="0.0" y="68" width="59.5" height="16"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="16" id="AbD-HI-Qqa"/>
                                                         </constraints>
@@ -863,7 +863,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F68-Fh-PY2">
-                                                        <rect key="frame" x="0.0" y="83.5" width="59.5" height="12"/>
+                                                        <rect key="frame" x="0.0" y="88" width="59.5" height="12"/>
                                                         <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="12"/>
                                                         <color key="textColor" red="0.28627450980000002" green="0.34509803919999998" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -871,10 +871,10 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="J6A-yM-F4U">
-                                                <rect key="frame" x="322.5" y="0.0" width="59.5" height="95.5"/>
+                                                <rect key="frame" x="322.5" y="0.0" width="59.5" height="100"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gc4-DP-o9J">
-                                                        <rect key="frame" x="0.0" y="0.0" width="59.5" height="59.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="59.5" height="64"/>
                                                         <color key="backgroundColor" red="0.94901960780000005" green="0.37254901959999998" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" image="globe" catalog="system"/>
@@ -883,7 +883,7 @@
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="General" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ojh-aq-a4W">
-                                                        <rect key="frame" x="0.0" y="63.5" width="59.5" height="16"/>
+                                                        <rect key="frame" x="0.0" y="68" width="59.5" height="16"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="16" id="jFy-Gw-HR5"/>
                                                         </constraints>
@@ -892,7 +892,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KVa-cW-1lH">
-                                                        <rect key="frame" x="0.0" y="83.5" width="59.5" height="12"/>
+                                                        <rect key="frame" x="0.0" y="88" width="59.5" height="12"/>
                                                         <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="12"/>
                                                         <color key="textColor" red="0.28627450980000002" green="0.34509803919999998" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -904,7 +904,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBd-Jf-qqy">
-                                <rect key="frame" x="16" y="472.5" width="382" height="149.5"/>
+                                <rect key="frame" x="16" y="486" width="382" height="136"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <color key="textColor" red="0.93725490199999995" green="0.13725490200000001" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -990,17 +990,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="594.5"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="XVa-L1-SCI">
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="XVa-L1-SCI">
                                 <rect key="frame" x="64" y="60" width="286" height="32"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Totals:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7re-gW-JjY">
-                                        <rect key="frame" x="0.0" y="0.0" width="135" height="32"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="143" height="32"/>
                                         <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="32"/>
                                         <color key="textColor" red="0.28627450980000002" green="0.34509803919999998" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cPa-og-XNc">
-                                        <rect key="frame" x="151" y="0.0" width="135" height="32"/>
+                                        <rect key="frame" x="143" y="0.0" width="143" height="32"/>
                                         <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="32"/>
                                         <color key="textColor" red="0.28627450980000002" green="0.34509803919999998" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -1506,6 +1506,9 @@
                                     <segment title="Year"/>
                                 </segments>
                                 <color key="selectedSegmentTintColor" red="0.28627450980000002" green="0.34509803919999998" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="segment:" destination="VQV-af-wjw" eventType="valueChanged" id="X9I-k7-UYo"/>
+                                </connections>
                             </segmentedControl>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="df8-Hj-WY5">
                                 <rect key="frame" x="16" y="134" width="382" height="95.5"/>
