@@ -14,9 +14,9 @@ The app divide the actions to common financial categories to help the users to t
 
 ## About the project:
 
-Language: Swift 5
-Work Environment: Xcode 11 
-Arranged by MVC , Based on CoreData and Firebase'e server.
+* Language: Swift 5
+* Work Environment: Xcode 11 
+* Arranged by MVC , Based on CoreData and Firebase'e server.
 
 ## Libraries:
 
